@@ -1,10 +1,11 @@
 import React from 'react'
+import Message from './Message';
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
-    message: 'some text',
-    time: '22:00',
+    avatar: 'https://sun9-62.userapi.com/impg/PHYyrX__ctTup5GAVdwohv-KJkfwJRCeButMnA/1EjSdwCR8c4.jpg?size=100x100&quality=95&sign=67010ed9c53b08a2811df72473d0a242&type=album',
+    name: 'Maks',
+    message: 'npm start нажимал?',
+    time: '22:01',
 }
 
 function HW1() {
@@ -13,18 +14,13 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            {/*should work (должно работать)*/}
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
+                time={messageData.time}
+            />
 
-            {/*<Message*/}
-            {/*    avatar={messageData.avatar}*/}
-            {/*    name={messageData.name}*/}
-            {/*    message={messageData.message}*/}
-            {/*    time={messageData.time}*/}
-            {/*/>*/}
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
             <hr/>
         </div>
     )

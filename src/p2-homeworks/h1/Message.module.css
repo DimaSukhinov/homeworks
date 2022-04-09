@@ -1,3 +1,41 @@
 .message {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(14, 22, 33);
+    padding: 20px;
+}
 
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    background-color: rgb(24, 37, 51);
+    border-radius: 5px 5px 5px 0;
+    padding: 8px 10px 5px 10px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgb(24, 37, 51) 0);
+}
+
+.name {
+    font-size: 15px;
+    color: rgb(180, 139, 242);
+    font-weight: bold;
+}
+
+.text {
+    color: rgb(245, 245, 245);
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.time {
+    color: rgb(109, 127, 143);
+    font-size: 14px;
+    text-align: right;
 }
